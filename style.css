@@ -14,22 +14,21 @@ background: url(./img/background.jpeg);
 
 .container{
 
-    box-shadow: 10px 2px 10px   rgb(101, 88, 88);
+    box-shadow: 1px 2px 2px 1px rgb(97 118 206);
      background-position-y: bottom;
 
-   background-image: url(./img/weather.jpeg);
+/*    background-image: url(./img/weather.jpeg);
    background-repeat: no-repeat;
-    background-size: cover;
-
-
-    width: 26rem;
-    
+    background-size: cover; */
+width: 26rem;
     margin: 0 auto;
-   
     color: #ffffff;
-    border-radius: 5px;
+    border-radius: 18px;
     padding: 48px 32px;
     text-align: center;
+    
+
+    
 }
 .search{
     width: 100%;
@@ -99,7 +98,8 @@ background: url(./img/background.jpeg);
     display: none;
 }
 .details{
- 
+     background: #00000024;
+    border-radius: 18px;
     align-items: center;
     justify-content: space-between;
     
@@ -122,7 +122,7 @@ background: url(./img/background.jpeg);
    
 }
 p , h4{ 
-    text-shadow: 3px 4px rgb(4, 4, 4);
+    text-shadow: 3px 2px rgb(4, 4, 4);
     font-size:18px;
     font-weight: 200;
     margin: 1px auto;
