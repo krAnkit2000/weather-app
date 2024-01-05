@@ -5,6 +5,9 @@ background: url(./img/background.jpeg);
     background-size: cover;
 
 }
+html{
+    height: -webkit-fill-available;
+}
 *{
    
     margin: 0;
